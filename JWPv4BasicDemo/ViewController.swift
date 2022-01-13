@@ -8,12 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func setupAndPresentPlayer(_ sender: Any) {
+        let pvc = CustomPlayerViewController()
+        pvc.modalPresentationStyle = .fullScreen
+        present(pvc, animated: true) {
+//            pvc.interfaceBehavior = .hidden
+        }
+    }
 }
 

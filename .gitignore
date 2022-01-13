@@ -2,6 +2,9 @@
 #
 # gitignore contributors: 
 
+# User-Added
+Secure.swift
+
 ## Build generated
 build/
 DerivedData/

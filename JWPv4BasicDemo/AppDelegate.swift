@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import JWPlayerKit
+import AVFoundation
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,7 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        JWPlayerKitLicense.setLicenseKey(Secure.v4Key)
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .moviePlayback, options: .allowAirPlay)
+            try AVAudioSession.sharedInstance().setActive(true, options: [])
+        } catch {
+            print(error.localizedDescription)
+        }
+        
         return true
     }
 

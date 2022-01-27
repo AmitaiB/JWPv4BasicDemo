@@ -15,10 +15,8 @@ class ViewController: UIViewController {
 
     @IBAction func setupAndPresentPlayer(_ sender: Any) {
         let pvc = CustomPlayerViewController()
-        pvc.modalPresentationStyle = .fullScreen
-        present(pvc, animated: true) {
-//            pvc.interfaceBehavior = .hidden
-        }
+        pvc.edgesForExtendedLayout = []
+        navigationController?.pushViewController(pvc, animated: true)
     }
 }
 

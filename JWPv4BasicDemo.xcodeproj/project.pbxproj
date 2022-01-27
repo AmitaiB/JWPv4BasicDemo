@@ -15,6 +15,8 @@
 		11C14D992790DBDB00C9A8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C14D972790DBDB00C9A8B9 /* LaunchScreen.storyboard */; };
 		11C14DA12790DD5800C9A8B9 /* Secure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C14DA02790DD5800C9A8B9 /* Secure.swift */; };
 		11C14DA32790DE4800C9A8B9 /* CustomPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C14DA22790DE4800C9A8B9 /* CustomPlayerViewController.swift */; };
+		11C14DA52791300500C9A8B9 /* Dictionary+PrettyPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C14DA42791300500C9A8B9 /* Dictionary+PrettyPrint.swift */; };
+		11C14DA72791303600C9A8B9 /* JWPlayerKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C14DA62791303600C9A8B9 /* JWPlayerKit+Extensions.swift */; };
 		217C219AE4F62A1E6097EB7D /* Pods_JWPv4BasicDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51006DF5455319F1E0BD93A /* Pods_JWPv4BasicDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		11C14D9A2790DBDB00C9A8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11C14DA02790DD5800C9A8B9 /* Secure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secure.swift; sourceTree = "<group>"; };
 		11C14DA22790DE4800C9A8B9 /* CustomPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlayerViewController.swift; sourceTree = "<group>"; };
+		11C14DA42791300500C9A8B9 /* Dictionary+PrettyPrint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+PrettyPrint.swift"; sourceTree = "<group>"; };
+		11C14DA62791303600C9A8B9 /* JWPlayerKit+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JWPlayerKit+Extensions.swift"; sourceTree = "<group>"; };
 		21BFDD27FED4FDDE8A9058C1 /* Pods-JWPv4BasicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPv4BasicDemo.debug.xcconfig"; path = "Target Support Files/Pods-JWPv4BasicDemo/Pods-JWPv4BasicDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		86B7642BFD3A8F7F9C334705 /* Pods-JWPv4BasicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWPv4BasicDemo.release.xcconfig"; path = "Target Support Files/Pods-JWPv4BasicDemo/Pods-JWPv4BasicDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C51006DF5455319F1E0BD93A /* Pods_JWPv4BasicDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWPv4BasicDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +76,8 @@
 				11C14D8E2790DBD900C9A8B9 /* SceneDelegate.swift */,
 				11C14D902790DBD900C9A8B9 /* ViewController.swift */,
 				11C14DA22790DE4800C9A8B9 /* CustomPlayerViewController.swift */,
+				11C14DA62791303600C9A8B9 /* JWPlayerKit+Extensions.swift */,
+				11C14DA42791300500C9A8B9 /* Dictionary+PrettyPrint.swift */,
 				11C14D922790DBD900C9A8B9 /* Main.storyboard */,
 				11C14D952790DBDB00C9A8B9 /* Assets.xcassets */,
 				11C14D972790DBDB00C9A8B9 /* LaunchScreen.storyboard */,
@@ -214,7 +220,9 @@
 			files = (
 				11C14D912790DBD900C9A8B9 /* ViewController.swift in Sources */,
 				11C14D8D2790DBD900C9A8B9 /* AppDelegate.swift in Sources */,
+				11C14DA72791303600C9A8B9 /* JWPlayerKit+Extensions.swift in Sources */,
 				11C14DA12790DD5800C9A8B9 /* Secure.swift in Sources */,
+				11C14DA52791300500C9A8B9 /* Dictionary+PrettyPrint.swift in Sources */,
 				11C14D8F2790DBD900C9A8B9 /* SceneDelegate.swift in Sources */,
 				11C14DA32790DE4800C9A8B9 /* CustomPlayerViewController.swift in Sources */,
 			);
@@ -365,7 +373,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 8VC65F749H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JWPv4BasicDemo/Info.plist;
@@ -394,7 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 8VC65F749H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JWPv4BasicDemo/Info.plist;
